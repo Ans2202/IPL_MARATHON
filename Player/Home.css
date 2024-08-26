@@ -1,0 +1,36 @@
+.nav-container {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #f8f9fa; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+}
+
+.nav-container ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.nav-container li {
+    margin-right: 20px;
+}
+
+.nav-container a {
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; 
+}
+
+.nav-container a:hover {
+    text-decoration: underline; 
+}
+
+.nav-container img {
+    display: block; 
+    margin-top: 10px; 
+}
